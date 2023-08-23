@@ -1,0 +1,69 @@
+a {
+    color: currentColor;
+    cursor: pointer;
+    text-decoration: none;
+}
+content {
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    }
+.side {
+    max-height: 20rem;
+    max-width: 20rem;
+    }
+.about {
+    max-width: 26rem;
+ }
+.name {
+    font-size: 2.25rem;
+    line-height: 1.125;
+    margin-bottom: 0.5rem;
+    }
+.hr {
+        background-color: #ff470f;
+        border: none;
+        content: "";
+        height: 1px;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+        transform-origin: center left;
+        width: 4rem;
+        }
+.description {
+            font-size: 1.5rem;
+            }
+.contact {
+                display: inline-block;
+                margin-top: 1.5rem;
+                vertical-align: top;
+                }
+.social {
+                    display: flex;
+                    margin-top: 1.5rem;
+                    }
+.social li {
+                    height: 2rem;
+                    margin-right: 0.5rem;
+                    text-align: center;
+                    width: 2rem;
+                    }
+.social a {
+                        align-items: center;
+                        display: flex;
+                        font-size: 1.5rem;
+                        height: 2rem;
+                        justify-content: center;
+                        opacity: 0.5;
+                        transition-property: opacity, transform;
+                        width: 2rem;
+                        will-change: opacity, transform;
+                        }
+.social a:hover {
+                            opacity: 1;
+                            transform: scale(1.25);
+                            }
+ .social a:active {
+                                opacity: 1;
+                                transform: scale(1.1);
+                            }     
